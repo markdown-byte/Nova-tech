@@ -12,9 +12,9 @@ const products = [
         originalPrice: 279,
         rating: 4.9,
         reviewCount: 184,
-        image: "IMG_4642.jpg",
+        image: "studio_IMG_4642.png",
         gallery: [
-            "IMG_4642.jpg",
+            "studio_IMG_4642.png",
         ],
         description: "Immergez-vous dans un son purement immersif avec les AirPods Pro 3, conçus pour offrir une qualité audio exceptionnelle, une réduction du bruit ultra-efficace et un confort optimal au quotidien. Idéals pour les appels, la musique, les voyages et les séances de travail, ils allient technologie premium, design élégant et performance sans compromis.",
         specs: {
@@ -37,10 +37,10 @@ const products = [
         originalPrice: 299,
         rating: 4.8,
         reviewCount: 95,
-        image: "image copy 7.png",
+        image: "image copy 24.png",
         gallery: [
-            "image copy 7.png",
-            "IMG_4642.jpg",
+            "image copy 24.png",
+            "studio_IMG_4642.png",
             "airpods-max.png"
         ],
         description: "Découvrez les AirPods 4, un compagnon audio moderne pensé pour offrir un son immersif, une excellente réduction du bruit et un confort exceptionnel au quotidien. Parfaits pour la musique, les appels et vos déplacements, ils allient élégance, simplicité et technologie haut de gamme.",
@@ -64,11 +64,11 @@ const products = [
         originalPrice: 249,
         rating: 4.7,
         reviewCount: 142,
-        image: "image copy 8.png",
+        image: "studio_image_copy_8.png",
         gallery: [
-            "image copy 8.png",
-            "IMG_4642.jpg",
-            "image copy 7.png"
+            "studio_image_copy_8.png",
+            "studio_IMG_4642.png",
+            "studio_image_copy_7.png"
         ],
         description: "Un produit audio élégant et performant, pensé pour offrir une expérience d'écoute moderne avec un design soigné et des fonctionnalités pratiques au quotidien. Idéal pour les amateurs de musique, les appels et les déplacements.",
         specs: {
@@ -90,11 +90,11 @@ const products = [
         originalPrice: 349,
         rating: 4.8,
         reviewCount: 128,
-        image: "image copy 9.png",
+        image: "studio_image_copy_9.png",
         gallery: [
-            "image copy 9.png",
-            "image copy 8.png",
-            "IMG_4642.jpg"
+            "studio_image_copy_9.png",
+            "studio_image_copy_8.png",
+            "studio_IMG_4642.png"
         ],
         description: "Profitez d'un son premium, d'une réduction du bruit performante et d'un design moderne avec les AirPods Pro 5s. Parfaits pour une utilisation quotidienne, les appels et la détente, ils offrent un excellent équilibre entre confort, technologie et élégance.",
         specs: {
@@ -117,9 +117,9 @@ const products = [
         originalPrice: 69,
         rating: 4.6,
         reviewCount: 87,
-        image: "image copy 10.png",
+        image: "studio_image_copy_10.png",
         gallery: [
-            "image copy 10.png",
+            "studio_image_copy_10.png",
             "charger-anker-120w.png",
             "magsafe-station.jpg"
         ],
@@ -143,11 +143,11 @@ const products = [
         originalPrice: 39,
         rating: 4.7,
         reviewCount: 64,
-        image: "image copy 11.png",
+        image: "studio_image_copy_11.png",
         gallery: [
-            "image copy 11.png",
-            "image copy 10.png",
-            "IMG_4642.jpg"
+            "studio_image_copy_11.png",
+            "studio_image_copy_10.png",
+            "studio_IMG_4642.png"
         ],
         description: "Un câble fiable et pratique en 1 mètre pour recharger et synchroniser vos appareils Apple avec rapidité. Compact, solide et parfait pour le quotidien.",
         specs: {
@@ -169,10 +169,10 @@ const products = [
         originalPrice: 49,
         rating: 4.8,
         reviewCount: 72,
-        image: "image copy 12.png",
+        image: "studio_image_copy_12.png",
         gallery: [
-            "image copy 12.png",
-            "image copy 10.png",
+            "studio_image_copy_12.png",
+            "studio_image_copy_10.png",
             "magsafe-station.jpg"
         ],
         description: "Profitez d'une charge rapide et fiable avec cet adaptateur USB-C de 25W, parfait pour votre smartphone, votre tablette ou vos accessoires du quotidien.",
@@ -195,11 +195,11 @@ const products = [
         originalPrice: 29,
         rating: 4.6,
         reviewCount: 58,
-        image: "image copy 13.png",
+        image: "studio_image_copy_13.png",
         gallery: [
-            "image copy 13.png",
-            "image copy 12.png",
-            "image copy 11.png"
+            "studio_image_copy_13.png",
+            "studio_image_copy_12.png",
+            "studio_image_copy_11.png"
         ],
         description: "Un câble USB-C pratique et fiable pour recharger vos appareils en toute simplicité. Compact, robuste et idéal pour une utilisation maison ou en déplacement.",
         specs: {
@@ -221,11 +221,11 @@ const products = [
         originalPrice: 159,
         rating: 4.6,
         reviewCount: 73,
-        image: "image copy 15.png",
+        image: "studio_image_copy_15.png",
         gallery: [
-            "image copy 15.png",
-            "image copy 14.png",
-            "image copy 13.png"
+            "studio_image_copy_15.png",
+            "studio_image_copy_14.png",
+            "studio_image_copy_13.png"
         ],
         description: "Découvrez les Oraimo SpaceBuds Air, des écouteurs sans fil confortables et élégants offrant une expérience audio agréable pour la musique, les appels et les déplacements. Un excellent choix pour qui cherche un produit moderne à prix accessible.",
         specs: {
@@ -247,11 +247,11 @@ const products = [
         originalPrice: 129,
         rating: 4.5,
         reviewCount: 61,
-        image: "image copy 14.png",
+        image: "studio_image_copy_14.png",
         gallery: [
-            "image copy 14.png",
-            "image copy 15.png",
-            "image copy 13.png"
+            "studio_image_copy_14.png",
+            "studio_image_copy_15.png",
+            "studio_image_copy_13.png"
         ],
         description: "Les Oraimo OTW-324s offrent un design moderne, un confort agréable et une expérience audio fiable pour la musique et les appels. Un choix pratique pour les utilisateurs qui recherchent un produit accessible et élégant.",
         specs: {
@@ -273,11 +273,11 @@ const products = [
         originalPrice: 119,
         rating: 4.4,
         reviewCount: 54,
-        image: "image copy 16.png",
+        image: "studio_image_copy_16.png",
         gallery: [
-            "image copy 16.png",
-            "image copy 15.png",
-            "image copy 14.png"
+            "studio_image_copy_16.png",
+            "studio_image_copy_15.png",
+            "studio_image_copy_14.png"
         ],
         description: "Les Oraimo Opn-373 combinent confort, design moderne et une expérience audio agréable pour la musique, les appels et les déplacements. Un produit accessible pour profiter d'un son simple et pratique au quotidien.",
         specs: {
@@ -299,11 +299,11 @@ const products = [
         originalPrice: 125,
         rating: 4.5,
         reviewCount: 57,
-        image: "image copy 17.png",
+        image: "studio_image_copy_17.png",
         gallery: [
-            "image copy 17.png",
-            "image copy 16.png",
-            "image copy 15.png"
+            "studio_image_copy_17.png",
+            "studio_image_copy_16.png",
+            "studio_image_copy_15.png"
         ],
         description: "L'édition Oraimo Opn-373 Light Gold apporte un style élégant et une expérience audio agréable pour la musique, les appels et les déplacements. Un produit raffiné, pratique et accessible au quotidien.",
         specs: {
@@ -325,11 +325,11 @@ const products = [
         originalPrice: 79,
         rating: 4.3,
         reviewCount: 42,
-        image: "Mini.PNG",
+        image: "studio_Mini.png",
         gallery: [
-            "Mini.PNG",
-            "image copy 17.png",
-            "image copy 16.png"
+            "studio_Mini.png",
+            "studio_image_copy_17.png",
+            "studio_image_copy_16.png"
         ],
         description: "Le Mini Ventillateure offre une ventilation pratique et portable pour les espaces personnels, les bureaux et les déplacements. Compact, léger et facile à utiliser au quotidien.",
         specs: {
