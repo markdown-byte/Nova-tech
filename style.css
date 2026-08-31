@@ -858,88 +858,10 @@ header.main-header.scrolled {
     cursor: pointer;
 }
 
-/* Shop Layout */
-.shop-layout {
-    display: grid;
-    grid-template-columns: 260px 1fr;
-    gap: 40px;
-    align-items: start;
-}
-
-.shop-sidebar {
-    position: sticky;
-    top: calc(var(--header-height) + 30px);
-}
-
-.sidebar-block {
-    background-color: var(--secondary-bg);
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius-xl);
-    padding: 24px;
-}
-
-.sidebar-title {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.sidebar-menu {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.sidebar-category-btn {
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
-    padding: 10px 12px;
-    border-radius: var(--border-radius-sm);
-    font-size: 0.95rem;
-    font-family: var(--font-primary);
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: var(--transition-fast);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.sidebar-category-btn:hover {
-    background-color: var(--primary-bg);
-    color: var(--text-primary);
-}
-
-.sidebar-category-btn.active {
-    background-color: var(--text-primary);
-    color: var(--secondary-bg);
-    font-weight: 500;
-}
-
-.mobile-filter-btn {
-    display: none; /* Hidden on desktop */
-    align-items: center;
-    gap: 8px;
-    font-size: 0.9rem;
-    padding: 8px 16px;
-    border-radius: var(--border-radius-full);
-}
-
-.results-count {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    margin-left: 10px;
-}
-
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 30px;
 }
 
 /* Product Card */
@@ -2076,27 +1998,6 @@ footer.main-footer {
     
     .slide-title {
         font-size: 3rem;
-    }
-}
-
-@media (max-width: 900px) {
-    .shop-layout {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
-
-    .shop-sidebar {
-        position: static;
-        display: none;
-        margin-bottom: 20px;
-    }
-
-    .shop-sidebar.active {
-        display: block;
-    }
-
-    .mobile-filter-btn {
-        display: flex;
     }
 }
 
