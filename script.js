@@ -12,7 +12,7 @@ const products = [
         originalPrice: 279,
         rating: 4.9,
         reviewCount: 184,
-        image: "studio_IMG_4642.png",
+        image: "images/studio_IMG_4642.png",
         gallery: [
             "studio_IMG_4642.png",
         ],
@@ -37,7 +37,7 @@ const products = [
         originalPrice: 299,
         rating: 4.8,
         reviewCount: 95,
-        image: "image copy 24.png",
+        image: "images/image copy 24.png",
         gallery: [
             "image copy 24.png",
             "studio_IMG_4642.png",
@@ -64,7 +64,7 @@ const products = [
         originalPrice: 249,
         rating: 4.7,
         reviewCount: 142,
-        image: "studio_image_copy_8.png",
+        image: "images/studio_image_copy_8.png",
         gallery: [
             "studio_image_copy_8.png",
             "studio_IMG_4642.png",
@@ -90,7 +90,7 @@ const products = [
         originalPrice: 349,
         rating: 4.8,
         reviewCount: 128,
-        image: "studio_image_copy_9.png",
+        image: "images/studio_image_copy_9.png",
         gallery: [
             "studio_image_copy_9.png",
             "studio_image_copy_8.png",
@@ -117,7 +117,7 @@ const products = [
         originalPrice: 69,
         rating: 4.6,
         reviewCount: 87,
-        image: "studio_image_copy_10.png",
+        image: "images/studio_image_copy_10.png",
         gallery: [
             "studio_image_copy_10.png",
             "charger-anker-120w.png",
@@ -143,7 +143,7 @@ const products = [
         originalPrice: 39,
         rating: 4.7,
         reviewCount: 64,
-        image: "studio_image_copy_11.png",
+        image: "images/studio_image_copy_11.png",
         gallery: [
             "studio_image_copy_11.png",
             "studio_image_copy_10.png",
@@ -169,7 +169,7 @@ const products = [
         originalPrice: 49,
         rating: 4.8,
         reviewCount: 72,
-        image: "studio_image_copy_12.png",
+        image: "images/studio_image_copy_12.png",
         gallery: [
             "studio_image_copy_12.png",
             "studio_image_copy_10.png",
@@ -195,7 +195,7 @@ const products = [
         originalPrice: 29,
         rating: 4.6,
         reviewCount: 58,
-        image: "studio_image_copy_13.png",
+        image: "images/studio_image_copy_13.png",
         gallery: [
             "studio_image_copy_13.png",
             "studio_image_copy_12.png",
@@ -221,7 +221,7 @@ const products = [
         originalPrice: 159,
         rating: 4.6,
         reviewCount: 73,
-        image: "studio_image_copy_15.png",
+        image: "images/studio_image_copy_15.png",
         gallery: [
             "studio_image_copy_15.png",
             "studio_image_copy_14.png",
@@ -247,7 +247,7 @@ const products = [
         originalPrice: 129,
         rating: 4.5,
         reviewCount: 61,
-        image: "studio_image_copy_14.png",
+        image: "images/studio_image_copy_14.png",
         gallery: [
             "studio_image_copy_14.png",
             "studio_image_copy_15.png",
@@ -273,7 +273,7 @@ const products = [
         originalPrice: 119,
         rating: 4.4,
         reviewCount: 54,
-        image: "studio_image_copy_16.png",
+        image: "images/studio_image_copy_16.png",
         gallery: [
             "studio_image_copy_16.png",
             "studio_image_copy_15.png",
@@ -299,7 +299,7 @@ const products = [
         originalPrice: 125,
         rating: 4.5,
         reviewCount: 57,
-        image: "studio_image_copy_17.png",
+        image: "images/studio_image_copy_17.png",
         gallery: [
             "studio_image_copy_17.png",
             "studio_image_copy_16.png",
@@ -325,7 +325,7 @@ const products = [
         originalPrice: 79,
         rating: 4.3,
         reviewCount: 42,
-        image: "studio_Mini.png",
+        image: "images/studio_Mini.png",
         gallery: [
             "studio_Mini.png",
             "studio_image_copy_17.png",
@@ -351,7 +351,7 @@ const products = [
         originalPrice: 499,
         rating: 4.8,
         reviewCount: 156,
-        image: "charger-anker-120w.png",
+        image: "images/charger-anker-120w.png",
         gallery: [
             "charger-anker-120w.png"
         ],
@@ -375,7 +375,7 @@ const products = [
         originalPrice: 650,
         rating: 4.7,
         reviewCount: 88,
-        image: "apple-watch-ultra2.jpg",
+        image: "images/apple-watch-ultra2.jpg",
         gallery: [
             "apple-watch-ultra2.jpg"
         ],
@@ -399,7 +399,7 @@ const products = [
         originalPrice: 129,
         rating: 4.6,
         reviewCount: 45,
-        image: "image copy 19.png",
+        image: "images/image copy 19.png",
         gallery: [
             "image copy 19.png"
         ],
@@ -423,7 +423,7 @@ const products = [
         originalPrice: 250,
         rating: 4.5,
         reviewCount: 32,
-        image: "image copy 22.png",
+        image: "images/image copy 22.png",
         gallery: [
             "image copy 22.png"
         ],
@@ -447,7 +447,7 @@ const products = [
         originalPrice: 590,
         rating: 4.7,
         reviewCount: 54,
-        image: "image copy 21.png",
+        image: "images/image copy 21.png",
         gallery: [
             "image copy 21.png"
         ],
@@ -471,7 +471,7 @@ const products = [
         originalPrice: 290,
         rating: 4.6,
         reviewCount: 42,
-        image: "image copy 20.png",
+        image: "images/image copy 20.png",
         gallery: [
             "image copy 20.png"
         ],
@@ -495,7 +495,7 @@ const products = [
         originalPrice: 429,
         rating: 4.9,
         reviewCount: 125,
-        image: "apple1.PNG",
+        image: "images/apple1.PNG",
         gallery: [
             "apple1.PNG"
         ],
