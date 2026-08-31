@@ -2,7 +2,7 @@
    Premium E-Commerce Design System (Apple/Samsung-inspired)
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root {
     /* Color Palette */
@@ -28,7 +28,8 @@
     
     /* Layout & Styling */
     --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-display: 'Outfit', sans-serif;
+    --font-display: 'Montserrat', sans-serif;
+    --font-price: 'Space Grotesk', monospace, sans-serif;
     
     --border-radius-full: 9999px;
     --border-radius-xl: 22px;
@@ -89,8 +90,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    font-weight: 600;
-    letter-spacing: -0.02em;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
 }
 
 a {
@@ -326,13 +328,18 @@ header.main-header.scrolled {
     color: var(--text-primary);
 }
 
-.logo-icon {
-    font-size: 1.6rem;
-    margin-right: 4px;
-    color: var(--accent-blue);
-    animation: pulse 2s infinite;
+.brand-logo {
+    height: 36px; /* Adjust height based on standard navbar */
+    width: auto;
+    object-fit: contain;
+    mix-blend-mode: multiply; /* Helps blend white backgrounds in light mode */
 }
 
+/* Adjust blend mode for dark mode */
+[data-theme="dark"] .brand-logo {
+    mix-blend-mode: screen;
+    filter: invert(1); /* Assuming the logo is black text on white bg, inverting it for dark mode is a good idea */
+}
 .nav-links {
     display: flex;
     align-items: center;
@@ -1073,16 +1080,19 @@ header.main-header.scrolled {
 }
 
 .price-current {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--text-primary);
-    font-family: var(--font-display);
+    font-family: var(--font-price);
+    letter-spacing: -0.04em;
 }
 
 .price-original {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--text-secondary);
     text-decoration: line-through;
+    font-family: var(--font-price);
+    opacity: 0.8;
 }
 
 .add-to-cart-btn {
@@ -1728,15 +1738,20 @@ header.main-header.scrolled {
 
 .modal-price-current {
     font-size: 2rem;
-    font-weight: 700;
-    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--text-primary);
+    font-family: var(--font-price);
+    letter-spacing: -0.05em;
 }
 
 .modal-price-original {
     font-size: 1.25rem;
     color: var(--text-secondary);
     text-decoration: line-through;
-    margin-bottom: 4px;
+    margin-left: 12px;
+    margin-bottom: 6px;
+    font-family: var(--font-price);
+    opacity: 0.8;
 }
 
 .modal-product-desc {
