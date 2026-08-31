@@ -14,7 +14,7 @@ const products = [
         reviewCount: 184,
         image: "images/studio_IMG_4642.png",
         gallery: [
-            "studio_IMG_4642.png",
+            \"images/studio_IMG_4642.png\",
         ],
         description: "Immergez-vous dans un son purement immersif avec les AirPods Pro 3, conçus pour offrir une qualité audio exceptionnelle, une réduction du bruit ultra-efficace et un confort optimal au quotidien. Idéals pour les appels, la musique, les voyages et les séances de travail, ils allient technologie premium, design élégant et performance sans compromis.",
         specs: {
@@ -39,9 +39,9 @@ const products = [
         reviewCount: 95,
         image: "images/image copy 24.png",
         gallery: [
-            "image copy 24.png",
-            "studio_IMG_4642.png",
-            "airpods-max.png"
+            \"images/image copy 24.png\",
+            \"images/studio_IMG_4642.png\",
+            \"images/airpods-max.png\"
         ],
         description: "Découvrez les AirPods 4, un compagnon audio moderne pensé pour offrir un son immersif, une excellente réduction du bruit et un confort exceptionnel au quotidien. Parfaits pour la musique, les appels et vos déplacements, ils allient élégance, simplicité et technologie haut de gamme.",
         specs: {
@@ -66,9 +66,9 @@ const products = [
         reviewCount: 142,
         image: "images/studio_image_copy_8.png",
         gallery: [
-            "studio_image_copy_8.png",
-            "studio_IMG_4642.png",
-            "studio_image_copy_7.png"
+            \"images/studio_image_copy_8.png\",
+            \"images/studio_IMG_4642.png\",
+            \"images/studio_image_copy_7.png\"
         ],
         description: "Un produit audio élégant et performant, pensé pour offrir une expérience d'écoute moderne avec un design soigné et des fonctionnalités pratiques au quotidien. Idéal pour les amateurs de musique, les appels et les déplacements.",
         specs: {
@@ -92,9 +92,9 @@ const products = [
         reviewCount: 128,
         image: "images/studio_image_copy_9.png",
         gallery: [
-            "studio_image_copy_9.png",
-            "studio_image_copy_8.png",
-            "studio_IMG_4642.png"
+            \"images/studio_image_copy_9.png\",
+            \"images/studio_image_copy_8.png\",
+            \"images/studio_IMG_4642.png\"
         ],
         description: "Profitez d'un son premium, d'une réduction du bruit performante et d'un design moderne avec les AirPods Pro 5s. Parfaits pour une utilisation quotidienne, les appels et la détente, ils offrent un excellent équilibre entre confort, technologie et élégance.",
         specs: {
@@ -119,9 +119,9 @@ const products = [
         reviewCount: 87,
         image: "images/studio_image_copy_10.png",
         gallery: [
-            "studio_image_copy_10.png",
-            "charger-anker-120w.png",
-            "magsafe-station.jpg"
+            \"images/studio_image_copy_10.png\",
+            \"images/charger-anker-120w.png\",
+            \"images/magsafe-station.jpg\"
         ],
         description: "Chargez rapidement vos appareils avec cet adaptateur compact de 20W, conçu pour offrir une recharge fiable et pratique au quotidien. Idéal pour votre téléphone, votre tablette ou vos accessoires USB-C.",
         specs: {
@@ -145,9 +145,9 @@ const products = [
         reviewCount: 64,
         image: "images/studio_image_copy_11.png",
         gallery: [
-            "studio_image_copy_11.png",
-            "studio_image_copy_10.png",
-            "studio_IMG_4642.png"
+            \"images/studio_image_copy_11.png\",
+            \"images/studio_image_copy_10.png\",
+            \"images/studio_IMG_4642.png\"
         ],
         description: "Un câble fiable et pratique en 1 mètre pour recharger et synchroniser vos appareils Apple avec rapidité. Compact, solide et parfait pour le quotidien.",
         specs: {
@@ -171,9 +171,9 @@ const products = [
         reviewCount: 72,
         image: "images/studio_image_copy_12.png",
         gallery: [
-            "studio_image_copy_12.png",
-            "studio_image_copy_10.png",
-            "magsafe-station.jpg"
+            \"images/studio_image_copy_12.png\",
+            \"images/studio_image_copy_10.png\",
+            \"images/magsafe-station.jpg\"
         ],
         description: "Profitez d'une charge rapide et fiable avec cet adaptateur USB-C de 25W, parfait pour votre smartphone, votre tablette ou vos accessoires du quotidien.",
         specs: {
@@ -197,9 +197,9 @@ const products = [
         reviewCount: 58,
         image: "images/studio_image_copy_13.png",
         gallery: [
-            "studio_image_copy_13.png",
-            "studio_image_copy_12.png",
-            "studio_image_copy_11.png"
+            \"images/studio_image_copy_13.png\",
+            \"images/studio_image_copy_12.png\",
+            \"images/studio_image_copy_11.png\"
         ],
         description: "Un câble USB-C pratique et fiable pour recharger vos appareils en toute simplicité. Compact, robuste et idéal pour une utilisation maison ou en déplacement.",
         specs: {
@@ -223,9 +223,9 @@ const products = [
         reviewCount: 73,
         image: "images/studio_image_copy_15.png",
         gallery: [
-            "studio_image_copy_15.png",
-            "studio_image_copy_14.png",
-            "studio_image_copy_13.png"
+            \"images/studio_image_copy_15.png\",
+            \"images/studio_image_copy_14.png\",
+            \"images/studio_image_copy_13.png\"
         ],
         description: "Découvrez les Oraimo SpaceBuds Air, des écouteurs sans fil confortables et élégants offrant une expérience audio agréable pour la musique, les appels et les déplacements. Un excellent choix pour qui cherche un produit moderne à prix accessible.",
         specs: {
@@ -249,9 +249,9 @@ const products = [
         reviewCount: 61,
         image: "images/studio_image_copy_14.png",
         gallery: [
-            "studio_image_copy_14.png",
-            "studio_image_copy_15.png",
-            "studio_image_copy_13.png"
+            \"images/studio_image_copy_14.png\",
+            \"images/studio_image_copy_15.png\",
+            \"images/studio_image_copy_13.png\"
         ],
         description: "Les Oraimo OTW-324s offrent un design moderne, un confort agréable et une expérience audio fiable pour la musique et les appels. Un choix pratique pour les utilisateurs qui recherchent un produit accessible et élégant.",
         specs: {
@@ -275,9 +275,9 @@ const products = [
         reviewCount: 54,
         image: "images/studio_image_copy_16.png",
         gallery: [
-            "studio_image_copy_16.png",
-            "studio_image_copy_15.png",
-            "studio_image_copy_14.png"
+            \"images/studio_image_copy_16.png\",
+            \"images/studio_image_copy_15.png\",
+            \"images/studio_image_copy_14.png\"
         ],
         description: "Les Oraimo Opn-373 combinent confort, design moderne et une expérience audio agréable pour la musique, les appels et les déplacements. Un produit accessible pour profiter d'un son simple et pratique au quotidien.",
         specs: {
@@ -301,9 +301,9 @@ const products = [
         reviewCount: 57,
         image: "images/studio_image_copy_17.png",
         gallery: [
-            "studio_image_copy_17.png",
-            "studio_image_copy_16.png",
-            "studio_image_copy_15.png"
+            \"images/studio_image_copy_17.png\",
+            \"images/studio_image_copy_16.png\",
+            \"images/studio_image_copy_15.png\"
         ],
         description: "L'édition Oraimo Opn-373 Light Gold apporte un style élégant et une expérience audio agréable pour la musique, les appels et les déplacements. Un produit raffiné, pratique et accessible au quotidien.",
         specs: {
@@ -327,9 +327,9 @@ const products = [
         reviewCount: 42,
         image: "images/studio_Mini.png",
         gallery: [
-            "studio_Mini.png",
-            "studio_image_copy_17.png",
-            "studio_image_copy_16.png"
+            \"images/studio_Mini.png\",
+            \"images/studio_image_copy_17.png\",
+            \"images/studio_image_copy_16.png\"
         ],
         description: "Le Mini Ventillateure offre une ventilation pratique et portable pour les espaces personnels, les bureaux et les déplacements. Compact, léger et facile à utiliser au quotidien.",
         specs: {
@@ -353,7 +353,7 @@ const products = [
         reviewCount: 156,
         image: "images/charger-anker-120w.png",
         gallery: [
-            "charger-anker-120w.png"
+            \"images/charger-anker-120w.png\"
         ],
         description: "La montre Oraimo Watch 4 Plus offre un grand écran ultra-lumineux, des appels Bluetooth clairs et un suivi complet de la santé et du sport. Son design élégant s'adapte à toutes les occasions.",
         specs: {
@@ -377,7 +377,7 @@ const products = [
         reviewCount: 88,
         image: "images/apple-watch-ultra2.jpg",
         gallery: [
-            "apple-watch-ultra2.jpg"
+            \"images/apple-watch-ultra2.jpg\"
         ],
         description: "Découvrez l'Oraimo Watch Vivid avec son superbe écran AMOLED, sa clarté exceptionnelle en plein soleil et son suivi complet de la santé et du sommeil. Parfaite pour un style moderne et actif.",
         specs: {
@@ -401,7 +401,7 @@ const products = [
         reviewCount: 45,
         image: "images/image copy 19.png",
         gallery: [
-            "image copy 19.png"
+            \"images/image copy 19.png\"
         ],
         description: "Rafraîchissez votre espace avec le Air Cooler Fan, un ventilateur compact, puissant et silencieux, parfait pour le bureau ou la maison.",
         specs: {
@@ -425,7 +425,7 @@ const products = [
         reviewCount: 32,
         image: "images/image copy 22.png",
         gallery: [
-            "image copy 22.png"
+            \"images/image copy 22.png\"
         ],
         description: "Profitez d'un son immersif et d'un confort optimal avec le Casque P9. Connexion sans fil stable, réduction de bruit passive et autonomie durable pour toutes vos activités.",
         specs: {
@@ -449,7 +449,7 @@ const products = [
         reviewCount: 54,
         image: "images/image copy 21.png",
         gallery: [
-            "image copy 21.png"
+            \"images/image copy 21.png\"
         ],
         description: "Bénéficiez du son de qualité supérieure Pure Bass de JBL avec ce casque sans fil. Léger, pliable et confortable, il vous offre jusqu'à 40 heures d'autonomie pour un plaisir d'écoute prolongé.",
         specs: {
@@ -473,7 +473,7 @@ const products = [
         reviewCount: 42,
         image: "images/image copy 20.png",
         gallery: [
-            "image copy 20.png"
+            \"images/image copy 20.png\"
         ],
         description: "Le casque Bluetooth Oraimo vous offre des basses profondes et un confort d'écoute exceptionnel. Grâce à son autonomie longue durée et sa conception ergonomique, il est parfait pour un usage quotidien.",
         specs: {
@@ -497,7 +497,7 @@ const products = [
         reviewCount: 125,
         image: "images/apple1.PNG",
         gallery: [
-            "apple1.PNG"
+            \"images/apple1.PNG\"
         ],
         description: "Découvrez notre Pack Apple exclusif réunissant l'essentiel : les AirPods Pro 2 pour un son immersif, accompagnés d'un adaptateur secteur 20W et d'un câble Apple Type-C vers Type-C pour une charge ultra-rapide de tous vos appareils. L'ensemble parfait à un prix imbattable.",
         specs: {
@@ -675,16 +675,16 @@ function renderCategories() {
         'casque': 'power bank',
         'Ventilateurs': 'ventilateure'
     };
-    categoryImageMap['Tous'] = 'airpods-max.png';
-    categoryImageMap['AirPods'] = 'image copy.png';
-    categoryImageMap['Écouteurs'] = 'image copy 5.png';
-    categoryImageMap['Chargeurs'] = 'image copy 2.png';
-    categoryImageMap['Batteries Externes'] = 'image copy 3.png';
-    categoryImageMap['casque'] = 'image copy 4.png';
-    categoryImageMap['Ventilateurs'] = 'image copy 6.png';
-    categoryImageMap['Montres Connectées'] = 'image.png';
-    categoryImageMap['Casque'] = 'image copy 5.png';
-    categoryImageMap['offre'] = 'image copy 23.png';
+    categoryImageMap['Tous'] = 'images/airpods-max.png';
+    categoryImageMap['AirPods'] = 'images/image copy.png';
+    categoryImageMap['Écouteurs'] = 'images/image copy 5.png';
+    categoryImageMap['Chargeurs'] = 'images/image copy 2.png';
+    categoryImageMap['Batteries Externes'] = 'images/image copy 3.png';
+    categoryImageMap['casque'] = 'images/image copy 4.png';
+    categoryImageMap['Ventilateurs'] = 'images/image copy 6.png';
+    categoryImageMap['Montres Connectées'] = 'images/image.png';
+    categoryImageMap['Casque'] = 'images/image copy 5.png';
+    categoryImageMap['offre'] = 'images/image copy 23.png';
     
     categoryContainer.innerHTML = sortedCategories.map(cat => {
         const label = categoryLabelMap[cat] || cat;
