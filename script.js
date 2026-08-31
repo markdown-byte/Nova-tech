@@ -546,6 +546,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initHeroSlider();
     renderCategories();
+    renderSidebarCategories();
     filterAndSortProducts();
     renderCart();
     initEventListeners();
@@ -721,6 +722,57 @@ function renderCategories() {
     });
 }
 
+function renderSidebarCategories() {
+    const sidebarContainer = document.getElementById('sidebar-categories');
+    if (!sidebarContainer) return;
+    
+    const rawCategories = products.map(p => p.category);
+    const uniqueCategories = [...new Set(['Tous', 'offre', 'AirPods', 'Casque', 'casque', 'Chargeurs', 'Écouteurs', 'Batteries Externes', 'Montres Connectées', 'Ventilateurs'])].filter(cat => ['Tous', 'offre', ...rawCategories].includes(cat));
+    
+    const categoryLabelMap = {
+        'Chargeurs': 'chargeures',
+        'Écouteurs': 'casque',
+        'Batteries Externes': 'baf',
+        'casque': 'power bank',
+        'Ventilateurs': 'ventilateure'
+    };
+    
+    sidebarContainer.innerHTML = uniqueCategories.map(cat => {
+        const label = categoryLabelMap[cat] || cat;
+        return `
+            <li>
+                <button class="sidebar-category-btn ${currentCategory === cat ? 'active' : ''}" data-category="${cat}">
+                    <span>${label}</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+                </button>
+            </li>
+        `;
+    }).join('');
+    
+    sidebarContainer.querySelectorAll('.sidebar-category-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            currentCategory = btn.getAttribute('data-category');
+            renderSidebarCategories();
+            
+            // Sync with main category grid
+            const topCategoryContainer = document.getElementById('category-container');
+            if (topCategoryContainer) {
+                topCategoryContainer.querySelectorAll('.category-card').forEach(b => {
+                    b.classList.toggle('active', b.getAttribute('data-category') === currentCategory);
+                });
+            }
+            
+            filterAndSortProducts();
+            
+            // Close mobile sidebar if open
+            const sidebar = document.getElementById('shop-sidebar');
+            if (sidebar && window.innerWidth <= 900) {
+                sidebar.classList.remove('active');
+            }
+        });
+    });
+}
+
 // ==========================================================================
 // Filtres et Tri du Catalogue
 // ==========================================================================
@@ -764,6 +816,11 @@ function filterAndSortProducts() {
 function renderProductsGrid(items) {
     const grid = document.getElementById('products-grid');
     if (!grid) return;
+    
+    const countSpan = document.getElementById('results-count');
+    if (countSpan) {
+        countSpan.textContent = `${items.length} produit${items.length !== 1 ? 's' : ''}`;
+    }
     
     if (items.length === 0) {
         grid.innerHTML = `
@@ -1343,6 +1400,16 @@ function initEventListeners() {
         sortSelect.addEventListener('change', (e) => {
             currentSort = e.target.value;
             filterAndSortProducts();
+        });
+    }
+
+    const mobileFilterBtn = document.getElementById('mobile-filter-btn');
+    if (mobileFilterBtn) {
+        mobileFilterBtn.addEventListener('click', () => {
+            const sidebar = document.getElementById('shop-sidebar');
+            if (sidebar) {
+                sidebar.classList.toggle('active');
+            }
         });
     }
 

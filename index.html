@@ -195,29 +195,47 @@
                 <p class="section-subtitle">Chaque produit est minutieusement conçu et testé pour allier performance, fiabilité et design.</p>
             </div>
 
-            <!-- Barre de tris et de filtres -->
-            <div class="shop-bar">
-                <!-- Onglets de filtrage -->
-                <div class="shop-tabs">
-                    <button class="shop-tab active">Tous les produits</button>
-                    <button class="shop-tab">Vedettes</button>
-                </div>
+            <div class="shop-layout">
+                <!-- Sidebar de Catégories -->
+                <aside class="shop-sidebar" id="shop-sidebar">
+                    <div class="sidebar-block">
+                        <h3 class="sidebar-title">Catégories</h3>
+                        <ul id="sidebar-categories" class="sidebar-menu">
+                            <!-- Les catégories seront insérées ici dynamiquement -->
+                        </ul>
+                    </div>
+                </aside>
 
-                <!-- Tri par sélecteur -->
-                <div class="shop-sorting">
-                    <label for="sort-select">Trier par :</label>
-                    <select id="sort-select">
-                        <option value="featured">Choix de Vedettes</option>
-                        <option value="price-low-high">Prix : Du - cher au + cher</option>
-                        <option value="price-high-low">Prix : Du + cher au - cher</option>
-                        <option value="rating">Évaluation Moyenne</option>
-                    </select>
-                </div>
-            </div>
+                <!-- Contenu Principal (Produits) -->
+                <div class="shop-main-content">
+                    <!-- Barre de tris et de filtres -->
+                    <div class="shop-bar">
+                        <!-- Bouton Mobile & Compteur -->
+                        <div class="shop-tabs">
+                            <button class="mobile-filter-btn btn btn-outline" id="mobile-filter-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                                Filtres
+                            </button>
+                            <span class="results-count" id="results-count"></span>
+                        </div>
 
-            <!-- Grille de Produits -->
-            <div class="products-grid" id="products-grid">
-                <!-- Les cartes produits seront chargées ici via script.js -->
+                        <!-- Tri par sélecteur -->
+                        <div class="shop-sorting">
+                            <label for="sort-select">Trier par :</label>
+                            <select id="sort-select">
+                                <option value="featured">Choix de Vedettes</option>
+                                <option value="price-low-high">Prix : Du - cher au + cher</option>
+                                <option value="price-high-low">Prix : Du + cher au - cher</option>
+                                <option value="rating">Évaluation Moyenne</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Grille de Produits -->
+                    <div class="products-grid" id="products-grid">
+                        <!-- Les cartes produits seront chargées ici via script.js -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
